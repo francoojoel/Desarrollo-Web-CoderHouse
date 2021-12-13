@@ -32,3 +32,15 @@ body {
 	margin: 25px;	
 }
 
+footer img {
+	padding-top: 5.5rem;
+	position: relative;
+	min-height: 120px;
+	line-height: 30px;
+}
+
+footer div ul{
+	text-decoration: none;
+	list-style-type: none;
+	color: #fff;
+}
