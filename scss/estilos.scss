@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap');
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 1.3rem;
+	background-color: #333 !important;
+}
+.productsTitle {
+	padding: 15px;
+	font-size: 2.8rem;
+	color: #ff6400;
+}
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	.items {
+		&:hover {
+			img {
+				transform: scale(1.1);
+				transition: all 1s ease-in-out 100ms;
+			}
+		}
+	}
+}
+.items {
+	margin: 10px;
+	padding: 10px;
+	align-items: center;
+	font-size: 0.80rem;
+	background-color: #222;
+	a {
+		text-decoration: none;
+	}
+}
+#aorusFooter {
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+	background-color: #1f1f1f !important;
+	height: 220px;
+	a {
+		margin: 5px 5px;
+		padding: 5px 5px;
+		text-decoration: none;
+		color: #c4c4c4;
+	}
+}
