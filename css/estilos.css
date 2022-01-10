@@ -49,4 +49,23 @@ body {
   margin: -50px;
   color: #c4c4c4;
 }
+
+#aorusFooter {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  background-color: #1f1f1f;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#aorusFooter a {
+  text-decoration: none;
+  padding-top: 45px;
+  margin: 12px;
+  color: #fff;
+}
+
+#aorusFooter a:hover {
+  color: #FF6400;
+}
 /*# sourceMappingURL=estilos.css.map */

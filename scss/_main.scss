@@ -47,3 +47,20 @@ body {
             }
     }
 }
+
+#aorusFooter {
+	padding-top: 7rem;
+	padding-bottom: 2rem;
+	background-color: #1f1f1f;
+	transition: all .3s;
+	a {
+		text-decoration: none;
+		padding-top: 45px;
+		margin: 12px;
+		color: #fff;
+		&:hover {
+			color: $aorus-orange;			
+		}
+	}
+}
+
