@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.transparentBar, .dropdown-menu-dark {
+  background: transparent;
+  opacity: 1;
+}
+
+.fontAldrich {
+  font-family: 'Aldrich', sans-serif;
+}
+
+.container .itemsTitle {
+  margin: 150px auto 25px auto;
+  background: #FF6400;
+  background: -webkit-repeating-radial-gradient(ellipse farthest-corner at center center, #FF6400 0%, #FFFFFF 90%);
+  background: repeating-radial-gradient(ellipse farthest-corner at center center, #FF6400 0%, #FFFFFF 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container .aorusInfo {
+  color: #c4c4c4;
+}
+
+.container .productHover {
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+.container .productHover img {
+  width: 250px;
+  padding-bottom: 35px;
+  margin: 70px;
+  margin-bottom: 25px;
+}
+
+.container .productHover:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container .productHover .boxTitle {
+  margin: -50px;
+  color: #c4c4c4;
+}
+/*# sourceMappingURL=estilos.css.map */

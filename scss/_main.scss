@@ -1,0 +1,49 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.transparentBar {
+    background: transparent;
+    opacity: 1;
+}
+
+.dropdown-menu-dark {
+    @extend .transparentBar
+}
+
+.fontAldrich {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.container {
+    .itemsTitle {
+        margin: 150px auto 25px auto;
+        background: $aorus-orange;
+        background: -webkit-repeating-radial-gradient(ellipse farthest-corner at center center, $aorus-orange 0%, $white 90%);
+        background: -moz-repeating-radial-gradient(ellipse farthest-corner at center center, $aorus-orange 0%, $white 90%);
+        background: repeating-radial-gradient(ellipse farthest-corner at center center, $aorus-orange 0%, $white 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .aorusInfo {
+        color: $aorus-gray;
+    }    
+    .productHover {
+        transition: all 300ms ease-out;
+            img {
+                width: 250px;
+                padding-bottom: 35px;
+                margin: 70px;
+                margin-bottom: 25px;
+            }
+            &:hover {
+                transform: scale(1.2);
+            }
+            .boxTitle {
+                margin: -50px;
+                color: $aorus-gray;
+            }
+    }
+}
