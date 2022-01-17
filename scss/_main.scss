@@ -41,11 +41,11 @@ body {
         width: 100%;
         max-width: 650px;
         margin: 0px auto;
-        color: $aorus-gray;
+        color: $light-gray;
     }    
     .productHover {
         transition: all 350ms ease-out;
-            a{
+            a {
                 text-decoration: none;
             }
             img {
@@ -59,7 +59,7 @@ body {
                 padding-bottom: 2rem;
                 margin-bottom: 6rem;
                 margin-top: -40px;
-                color: $aorus-gray;
+                color: $light-gray;
             }
     }
 }
@@ -96,6 +96,30 @@ body {
 
 .bgColor {
     background-color: $bg-gray;
+}
+
+
+
+#laptops {
+    .productTitle {
+        color: $aorus-orange;
+        margin-top: 4rem;
+        padding-top: 4rem;
+        scroll-padding-top: 50ex;
+    }
+    .productBox {
+        background-color: $aorus-gray;
+        margin: 1rem;
+        max-width: 88%;
+    }
+    .productContent {
+        padding-top: 1rem;
+    }
+    .productImg {
+        img {
+            width: 80%;
+        }
+    }
 }
 
 .aorusFooter {
