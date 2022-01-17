@@ -6,17 +6,17 @@ body {
   overflow-x: hidden;
 }
 
-.transparentBar, .dropdown-menu-dark {
+.navbar .transparentBar, .navbar .dropdown-menu-dark {
   background: transparent;
-  opacity: 1;
 }
 
 .fontAldrich {
   font-family: 'Aldrich', sans-serif;
 }
 
-.container .itemsTitle {
-  margin: 150px auto 25px auto;
+.container-fluid .itemsTitle {
+  margin: 9rem;
+  margin-bottom: 1.8rem;
   background: #FF6400;
   background: -webkit-repeating-radial-gradient(ellipse farthest-corner at center center, #FF6400 0%, #FFFFFF 90%);
   background: repeating-radial-gradient(ellipse farthest-corner at center center, #FF6400 0%, #FFFFFF 90%);
@@ -24,48 +24,93 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.container .aorusInfo {
+@media all and (min-width: 436px) {
+  .container-fluid .itemsTitle .itemsTitle h1 {
+    font-size: 1.2rem;
+  }
+}
+
+.container-fluid .contentSummary {
+  width: 100%;
+  max-width: 650px;
+  margin: 0px auto;
   color: #c4c4c4;
 }
 
-.container .productHover {
-  -webkit-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
+.container-fluid .productHover {
+  -webkit-transition: all 350ms ease-out;
+  transition: all 350ms ease-out;
 }
 
-.container .productHover img {
-  width: 250px;
-  padding-bottom: 35px;
-  margin: 70px;
-  margin-bottom: 25px;
+.container-fluid .productHover img {
+  width: 220px;
+  margin: 4rem;
 }
 
-.container .productHover:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.container-fluid .productHover:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
-.container .productHover .boxTitle {
-  margin: -50px;
-  color: #c4c4c4;
-}
-
-#aorusFooter {
-  padding-top: 7rem;
+.container-fluid .productHover .boxTitle {
   padding-bottom: 2rem;
+  margin-bottom: 6rem;
+  margin-top: -40px;
+  color: #c4c4c4;
+}
+
+.blog .boxHover {
+  width: 85%;
+}
+
+.blog .boxHover .imgBox img {
+  width: 85%;
+  height: 300px;
+  margin: 14% 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.blog .boxHover .imgBox .blogLink a {
+  font-size: 1.2rem;
+  margin: 1.2rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.blog .boxHover .imgBox .blogLink:hover {
+  color: #FF6400;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gradientBar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#3e3e3e));
+  background: linear-gradient(180deg, #000, #3e3e3e);
+}
+
+.bgColor {
+  background-color: #333;
+}
+
+.aorusFooter {
+  padding-top: 6rem;
+  min-height: 470px;
   background-color: #1f1f1f;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-#aorusFooter a {
+.aorusFooter a {
+  font-size: 22px;
   text-decoration: none;
-  padding-top: 45px;
+  padding-top: 2.8rem;
   margin: 12px;
   color: #fff;
 }
 
-#aorusFooter a:hover {
+.aorusFooter a:hover {
   color: #FF6400;
 }
 /*# sourceMappingURL=estilos.css.map */
