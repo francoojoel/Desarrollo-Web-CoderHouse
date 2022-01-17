@@ -29,13 +29,6 @@ body {
         background: repeating-radial-gradient(ellipse farthest-corner at center center, $aorus-orange 0%, $white 90%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        @media all and (min-width: $breakpoint-sm) {
-            .itemsTitle {
-                h1{
-                    font-size: 1.2rem;
-                }
-            }
-        }
     }
     .contentSummary {
         width: 100%;
@@ -103,9 +96,8 @@ body {
 #laptops {
     .productTitle {
         color: $aorus-orange;
-        margin-top: 4rem;
         padding-top: 4rem;
-        scroll-padding-top: 50ex;
+        margin-top: 4rem;
     }
     .productBox {
         background-color: $aorus-gray;
@@ -118,6 +110,23 @@ body {
     .productImg {
         img {
             width: 80%;
+        }
+    }
+}
+
+#tarjetasMadre {
+    .productTitle {
+        @include product-title;
+    }
+    .productBox {
+        @include product-box;
+    }
+    .productContent {
+        @include product-content;
+    }
+    .productImg {
+        img {
+            @include product-img;
         }
     }
 }

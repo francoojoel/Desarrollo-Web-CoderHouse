@@ -1,0 +1,19 @@
+@mixin product-title {
+    color: $aorus-orange;
+    padding-top: 4rem;
+    margin-top: 4rem;
+}
+
+@mixin product-box {
+    background-color: $aorus-gray;
+    margin: 1rem;
+    max-width: 88%;
+}
+
+@mixin product-content {
+    padding-top: 1rem;
+}
+
+@mixin product-img {
+    width: 80%;
+}

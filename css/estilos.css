@@ -24,12 +24,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-@media all and (min-width: 436px) {
-  .container-fluid .itemsTitle .itemsTitle h1 {
-    font-size: 1.2rem;
-  }
-}
-
 .container-fluid .contentSummary {
   width: 100%;
   max-width: 650px;
@@ -100,9 +94,8 @@ body {
 
 #laptops .productTitle {
   color: #FF6400;
-  margin-top: 4rem;
   padding-top: 4rem;
-  scroll-padding-top: 50ex;
+  margin-top: 4rem;
 }
 
 #laptops .productBox {
@@ -116,6 +109,26 @@ body {
 }
 
 #laptops .productImg img {
+  width: 80%;
+}
+
+#tarjetasMadre .productTitle {
+  color: #FF6400;
+  padding-top: 4rem;
+  margin-top: 4rem;
+}
+
+#tarjetasMadre .productBox {
+  background-color: #222;
+  margin: 1rem;
+  max-width: 88%;
+}
+
+#tarjetasMadre .productContent {
+  padding-top: 1rem;
+}
+
+#tarjetasMadre .productImg img {
   width: 80%;
 }
 
