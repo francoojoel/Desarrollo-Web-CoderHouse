@@ -59,7 +59,14 @@ body {
 
 .blog .boxHover {
   width: 85%;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  overflow: hidden;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: 1;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .blog .boxHover .imgBox img {
@@ -68,20 +75,12 @@ body {
   margin: 14% 1rem;
   -o-object-fit: cover;
      object-fit: cover;
-  overflow: hidden;
 }
 
-.blog .boxHover .imgBox .blogLink a {
-  font-size: 1.2rem;
-  margin: 1rem;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.blog .boxHover .imgBox .blogLink:hover {
-  color: #FF6400;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.blog .boxHover:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  opacity: 0.9;
 }
 
 .gradientBar {
@@ -110,7 +109,7 @@ body {
 }
 
 #laptops .productImg img {
-  width: 80%;
+  width: 75%;
   padding-bottom: 2rem;
 }
 
@@ -131,7 +130,7 @@ body {
 }
 
 #tarjetasMadre .productImg img {
-  width: 80%;
+  width: 75%;
   padding-bottom: 2rem;
 }
 
@@ -152,7 +151,7 @@ body {
 }
 
 #tarjetasGraficas .productImg img {
-  width: 80%;
+  width: 75%;
   padding-bottom: 2rem;
 }
 

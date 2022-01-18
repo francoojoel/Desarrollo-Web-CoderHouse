@@ -58,30 +58,30 @@ body {
 }
 
 .blog {
-	.boxHover {
-		width: 85%;
-        padding-bottom: 2.5rem;
-		.imgBox {
-			img {
-				width: 85%;
-				height: 300px;
-				margin: 14% 1rem;
-				object-fit: cover;
-				overflow: hidden;
-			}
-			.blogLink {
-				a {
-					font-size: 1.2rem;
-					margin: 1rem;
-                    transition: all .3s;
-				}
-                &:hover {
-                    color: $aorus-orange;
-                    transform: scale(1.1);
-                }
-			}
-		}
-	}
+    .boxHover {
+        width: 85%;
+        padding-bottom: 1rem;
+        margin: 1rem;
+        overflow: hidden;
+        filter: grayscale(100%);
+        opacity: 1;
+        transition: all .3s;
+        .imgBox {
+            img {
+            width: 85%;
+            height: 300px;
+            margin: 14% 1rem;
+            object-fit: cover;
+            }
+        }
+        &:hover {
+            filter: grayscale(0%);
+            opacity: 0.9;
+        }
+        .blogContent {
+            
+        }
+    }
 }
 
 .gradientBar {
@@ -110,7 +110,7 @@ body {
     }
     .productImg {
         img {
-            width: 80%;
+            width: 75%;
             padding-bottom: 2rem;
         }
     }
