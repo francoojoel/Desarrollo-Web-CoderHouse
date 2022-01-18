@@ -60,6 +60,7 @@ body {
 .blog {
 	.boxHover {
 		width: 85%;
+        padding-bottom: 2.5rem;
 		.imgBox {
 			img {
 				width: 85%;
@@ -71,7 +72,7 @@ body {
 			.blogLink {
 				a {
 					font-size: 1.2rem;
-					margin: 1.2rem;
+					margin: 1rem;
                     transition: all .3s;
 				}
                 &:hover {
@@ -110,11 +111,29 @@ body {
     .productImg {
         img {
             width: 80%;
+            padding-bottom: 2rem;
         }
     }
 }
 
 #tarjetasMadre {
+    .productTitle {
+        @include product-title;
+    }
+    .productBox {
+        @include product-box;
+    }
+    .productContent {
+        @include product-content;
+    }
+    .productImg {
+        img {
+            @include product-img;
+        }
+    }
+}
+
+#tarjetasGraficas {
     .productTitle {
         @include product-title;
     }

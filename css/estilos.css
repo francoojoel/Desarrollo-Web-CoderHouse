@@ -59,6 +59,7 @@ body {
 
 .blog .boxHover {
   width: 85%;
+  padding-bottom: 2.5rem;
 }
 
 .blog .boxHover .imgBox img {
@@ -72,7 +73,7 @@ body {
 
 .blog .boxHover .imgBox .blogLink a {
   font-size: 1.2rem;
-  margin: 1.2rem;
+  margin: 1rem;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -110,26 +111,49 @@ body {
 
 #laptops .productImg img {
   width: 80%;
+  padding-bottom: 2rem;
 }
 
 #tarjetasMadre .productTitle {
   color: #FF6400;
   padding-top: 4rem;
-  margin-top: 4rem;
+  margin-top: 4.2rem;
 }
 
 #tarjetasMadre .productBox {
   background-color: #222;
   margin: 1rem;
-  max-width: 88%;
+  max-width: 85%;
 }
 
 #tarjetasMadre .productContent {
-  padding-top: 1rem;
+  padding-top: 1.2rem;
 }
 
 #tarjetasMadre .productImg img {
   width: 80%;
+  padding-bottom: 2rem;
+}
+
+#tarjetasGraficas .productTitle {
+  color: #FF6400;
+  padding-top: 4rem;
+  margin-top: 4.2rem;
+}
+
+#tarjetasGraficas .productBox {
+  background-color: #222;
+  margin: 1rem;
+  max-width: 85%;
+}
+
+#tarjetasGraficas .productContent {
+  padding-top: 1.2rem;
+}
+
+#tarjetasGraficas .productImg img {
+  width: 80%;
+  padding-bottom: 2rem;
 }
 
 .aorusFooter {
