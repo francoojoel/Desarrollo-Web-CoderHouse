@@ -18,3 +18,45 @@
     width: 75%;
     padding-bottom: 2rem;
 }
+
+@mixin about-title {
+    color: $aorus-orange;
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+
+@mixin aorus-footer {
+    padding-top: 6rem;
+    min-height: 470px;
+	background-color: #1f1f1f;
+	transition: all .3s;
+    a {
+        font-size: 22px;
+        margin: 12px;
+        padding-top: 2.8rem;
+		text-decoration: none;
+		color: #fff;
+		&:hover {
+			color: $aorus-orange;			
+
+        }
+	}
+}
+
+@mixin about-footer {
+    padding-top: 6rem;
+    min-height: 470px;
+	background-color: #121212;
+	transition: all .3s;
+    a {
+        font-size: 22px;
+		text-decoration: none;
+		padding-top: 2.8rem;
+		margin: 12px;
+		color: #fff;
+		&:hover {
+			color: $aorus-orange;			
+		}
+	}
+}
+

@@ -83,6 +83,11 @@ body {
   opacity: 0.9;
 }
 
+.blog .boxHover .blogContent {
+  margin-top: -15px;
+  padding-bottom: 1rem;
+}
+
 .gradientBar {
   background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#3e3e3e));
   background: linear-gradient(180deg, #000, #3e3e3e);
@@ -155,6 +160,28 @@ body {
   padding-bottom: 2rem;
 }
 
+.aboutContainer {
+  width: 85%;
+}
+
+.aboutContainer .aboutImg img {
+  width: 100%;
+  height: 55%;
+  padding-top: 3%;
+}
+
+.aboutContainer .aboutAorus {
+  color: #FF6400;
+  margin-top: 4rem;
+  padding-top: 10%;
+}
+
+.aboutContainer .aboutTitle {
+  color: #FF6400;
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+
 .aorusFooter {
   padding-top: 6rem;
   min-height: 470px;
@@ -165,13 +192,33 @@ body {
 
 .aorusFooter a {
   font-size: 22px;
+  margin: 12px;
+  padding-top: 2.8rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.aorusFooter a:hover {
+  color: #FF6400;
+}
+
+.aboutFooter {
+  padding-top: 6rem;
+  min-height: 470px;
+  background-color: #121212;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.aboutFooter a {
+  font-size: 22px;
   text-decoration: none;
   padding-top: 2.8rem;
   margin: 12px;
   color: #fff;
 }
 
-.aorusFooter a:hover {
+.aboutFooter a:hover {
   color: #FF6400;
 }
 /*# sourceMappingURL=estilos.css.map */
