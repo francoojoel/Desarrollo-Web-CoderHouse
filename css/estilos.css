@@ -183,22 +183,52 @@ body {
 }
 
 .aorusFooter {
-  padding-top: 6rem;
-  min-height: 470px;
+  padding-top: 3rem;
+  min-height: 450px;
   background-color: #1f1f1f;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-.aorusFooter a {
+.aorusFooter .footerIcons {
   font-size: 22px;
-  margin: 12px;
-  padding-top: 2.8rem;
+  padding-top: 1rem;
+}
+
+.aorusFooter .footerIcons a {
+  margin: 0 5px;
+  padding: 0 5px;
   text-decoration: none;
   color: #fff;
 }
 
-.aorusFooter a:hover {
+.aorusFooter .footerIcons a:hover {
+  color: #FF6400;
+}
+
+.aorusFooter .siteMap {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.aorusFooter .siteMap .col-lg-3 {
+  padding: 0 3.5rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.aorusFooter .siteMap .col-lg-3 .mapTitle {
+  padding: 0 1rem;
+}
+
+.aorusFooter .siteMap .col-lg-3 a {
+  font-size: 13px;
+  color: #c4c4c4;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.aorusFooter .siteMap .col-lg-3 a:hover {
   color: #FF6400;
 }
 
@@ -213,7 +243,7 @@ body {
 .aboutFooter a {
   font-size: 22px;
   text-decoration: none;
-  padding-top: 2.8rem;
+  padding-top: 1rem;
   margin: 12px;
   color: #fff;
 }
