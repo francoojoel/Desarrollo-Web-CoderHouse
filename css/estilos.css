@@ -160,6 +160,10 @@ body {
   padding-bottom: 2rem;
 }
 
+.aboutBar {
+  background-color: #131313;
+}
+
 .aboutContainer {
   width: 85%;
 }
@@ -177,7 +181,7 @@ body {
 }
 
 .aboutContainer .aboutTitle {
-  color: #FF6400;
+  color: #ff8c00;
   padding-top: 2rem;
   margin-top: 1rem;
 }
@@ -233,22 +237,52 @@ body {
 }
 
 .aboutFooter {
-  padding-top: 6rem;
-  min-height: 470px;
+  padding-top: 3rem;
+  min-height: 450px;
   background-color: #121212;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-.aboutFooter a {
+.aboutFooter .footerIcons {
   font-size: 22px;
-  text-decoration: none;
   padding-top: 1rem;
-  margin: 12px;
+}
+
+.aboutFooter .footerIcons a {
+  margin: 0 5px;
+  padding: 0 5px;
+  text-decoration: none;
   color: #fff;
 }
 
-.aboutFooter a:hover {
+.aboutFooter .footerIcons a:hover {
+  color: #FF6400;
+}
+
+.aboutFooter .siteMap {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.aboutFooter .siteMap .col-lg-3 {
+  padding: 0 3.5rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.aboutFooter .siteMap .col-lg-3 .mapTitle {
+  padding: 0 1rem;
+}
+
+.aboutFooter .siteMap .col-lg-3 a {
+  font-size: 13px;
+  color: #c4c4c4;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.aboutFooter .siteMap .col-lg-3 a:hover {
   color: #FF6400;
 }
 /*# sourceMappingURL=estilos.css.map */
