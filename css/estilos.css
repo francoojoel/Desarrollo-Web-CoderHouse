@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+/*@mixin aorus-footer {
+    .aorusFooter {
+        padding-top: 3rem;
+        min-height: 450px;
+        background-color: #1f1f1f;
+        transition: all .3s;
+        .footerIcons {
+            font-size: 22px;
+            padding-top: 1rem;
+            a {
+                margin: 0 5px;
+                padding: 0 5px;
+                text-decoration: none;
+                color: #fff;
+                &:hover {
+                    color: $aorus-orange;
+                }
+            }
+        }
+    }     
+}*/
 body {
   font-family: 'Titillium Web', sans-serif;
   background-color: #000;
@@ -215,16 +236,17 @@ body {
   padding-bottom: 1rem;
 }
 
-.aorusFooter .siteMap .col-lg-3 {
-  padding: 0 3.5rem;
+.aorusFooter .siteMap .col-md-5 {
+  width: 100%;
+  padding: 0 8rem;
   margin: 1rem 0 1rem 0;
 }
 
-.aorusFooter .siteMap .col-lg-3 .mapTitle {
+.aorusFooter .siteMap .col-md-5 .mapTitle {
   padding: 0 1rem;
 }
 
-.aorusFooter .siteMap .col-lg-3 a {
+.aorusFooter .siteMap .col-md-5 a {
   font-size: 13px;
   color: #c4c4c4;
   text-decoration: none;
@@ -232,7 +254,7 @@ body {
   transition: all .3s;
 }
 
-.aorusFooter .siteMap .col-lg-3 a:hover {
+.aorusFooter .siteMap .col-md-5 a:hover {
   color: #FF6400;
 }
 
@@ -265,16 +287,16 @@ body {
   padding-bottom: 1rem;
 }
 
-.aboutFooter .siteMap .col-lg-3 {
-  padding: 0 3.5rem;
+.aboutFooter .siteMap .col-xxl-3 {
+  padding: 0 5rem;
   margin: 1rem 0 1rem 0;
 }
 
-.aboutFooter .siteMap .col-lg-3 .mapTitle {
+.aboutFooter .siteMap .col-xxl-3 .mapTitle {
   padding: 0 1rem;
 }
 
-.aboutFooter .siteMap .col-lg-3 a {
+.aboutFooter .siteMap .col-xxl-3 a {
   font-size: 13px;
   color: #c4c4c4;
   text-decoration: none;
@@ -282,7 +304,7 @@ body {
   transition: all .3s;
 }
 
-.aboutFooter .siteMap .col-lg-3 a:hover {
+.aboutFooter .siteMap .col-xxl-3 a:hover {
   color: #FF6400;
 }
 /*# sourceMappingURL=estilos.css.map */

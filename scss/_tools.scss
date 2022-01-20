@@ -25,6 +25,28 @@
     margin-top: 1rem;
 }
 
+/*@mixin aorus-footer {
+    .aorusFooter {
+        padding-top: 3rem;
+        min-height: 450px;
+        background-color: #1f1f1f;
+        transition: all .3s;
+        .footerIcons {
+            font-size: 22px;
+            padding-top: 1rem;
+            a {
+                margin: 0 5px;
+                padding: 0 5px;
+                text-decoration: none;
+                color: #fff;
+                &:hover {
+                    color: $aorus-orange;
+                }
+            }
+        }
+    }     
+}*/
+
 @mixin aorus-footer {
     padding-top: 3rem;
     min-height: 450px;
@@ -46,8 +68,9 @@
     .siteMap {
         margin-top: 2rem;
         padding-bottom: 1rem;
-        .col-lg-3 {   
-            padding: 0 3.5rem;        
+        .col-md-5 {
+            width: 100%;
+            padding: 0 8rem;          
             margin: 1rem 0 1rem 0;
             .mapTitle {
                 padding: 0 1rem;
@@ -86,8 +109,8 @@
     .siteMap {
         margin-top: 2rem;
         padding-bottom: 1rem;
-        .col-lg-3 {   
-            padding: 0 3.5rem;        
+        .col-xxl-3 {   
+            padding: 0 5rem;        
             margin: 1rem 0 1rem 0;
             .mapTitle {
                 padding: 0 1rem;
