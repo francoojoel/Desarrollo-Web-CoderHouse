@@ -7,7 +7,7 @@
 @mixin product-box {
     background-color: $aorus-gray;
     margin: 1rem;
-    max-width: 85%;
+    min-width: 75%;
 }
 
 @mixin product-content {
@@ -15,7 +15,7 @@
 }
 
 @mixin product-img {
-    width: 75%;
+    width: 70%;
     padding-bottom: 2rem;
 }
 
@@ -24,28 +24,6 @@
     padding-top: 2rem;
     margin-top: 1rem;
 }
-
-/*@mixin aorus-footer {
-    .aorusFooter {
-        padding-top: 3rem;
-        min-height: 450px;
-        background-color: #1f1f1f;
-        transition: all .3s;
-        .footerIcons {
-            font-size: 22px;
-            padding-top: 1rem;
-            a {
-                margin: 0 5px;
-                padding: 0 5px;
-                text-decoration: none;
-                color: #fff;
-                &:hover {
-                    color: $aorus-orange;
-                }
-            }
-        }
-    }     
-}*/
 
 @mixin aorus-footer {
     padding-top: 3rem;
@@ -59,7 +37,49 @@
             margin: 0 5px;
             padding: 0 5px;
 		    text-decoration: none;
-		    color: #fff;
+		    color: $white;
+		    &:hover {
+			color: $aorus-orange;			
+            }
+	    } 
+    }
+    .siteMap {
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        .col-md-5 {
+            width: 100%;
+            height: auto;
+            padding: 0 8rem;          
+            margin: 1rem 0 1rem 0;
+            .mapTitle {
+                padding: 0 1rem;
+            }
+            a {
+                font-size: 13px;
+                color: $light-gray;
+                text-decoration: none;
+                transition: all .3s;
+                &:hover {
+                    color: $aorus-orange;
+                }
+            }
+        }
+    }
+}
+
+@mixin about-footer {
+    padding-top: 3rem;
+    min-height: 450px;
+	background-color: $aorus-dark;
+	transition: all .3s;
+    .footerIcons {
+        font-size: 22px;
+        padding-top: 1rem;
+        a {
+            margin: 0 5px;
+            padding: 0 5px;
+		    text-decoration: none;
+		    color: $white;
 		    &:hover {
 			color: $aorus-orange;			
             }
@@ -85,47 +105,5 @@
                 }
             }
         }
-    }
+    } 
 }
-
-@mixin about-footer {
-    padding-top: 3rem;
-    min-height: 450px;
-	background-color: #121212;
-	transition: all .3s;
-    .footerIcons {
-        font-size: 22px;
-        padding-top: 1rem;
-        a {
-            margin: 0 5px;
-            padding: 0 5px;
-		    text-decoration: none;
-		    color: #fff;
-		    &:hover {
-			color: $aorus-orange;			
-            }
-	    } 
-    }
-    .siteMap {
-        margin-top: 2rem;
-        padding-bottom: 1rem;
-        .col-xxl-3 {   
-            padding: 0 5rem;        
-            margin: 1rem 0 1rem 0;
-            .mapTitle {
-                padding: 0 1rem;
-            }
-            a {
-                font-size: 13px;
-                color: $light-gray;
-                text-decoration: none;
-                transition: all .3s;
-                &:hover {
-                    color: $aorus-orange;
-                }
-            }
-        }
-    }
-}
-
-

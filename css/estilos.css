@@ -1,38 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
-/*@mixin aorus-footer {
-    .aorusFooter {
-        padding-top: 3rem;
-        min-height: 450px;
-        background-color: #1f1f1f;
-        transition: all .3s;
-        .footerIcons {
-            font-size: 22px;
-            padding-top: 1rem;
-            a {
-                margin: 0 5px;
-                padding: 0 5px;
-                text-decoration: none;
-                color: #fff;
-                &:hover {
-                    color: $aorus-orange;
-                }
-            }
-        }
-    }     
-}*/
 body {
   font-family: 'Titillium Web', sans-serif;
   background-color: #000;
   overflow-x: hidden;
 }
 
-.navbar .transparentBar, .navbar .dropdown-menu-dark {
-  background: transparent;
-}
-
 .fontAldrich {
   font-family: 'Aldrich', sans-serif;
+}
+
+.transparentBar .navbar, .transparentBar .dropdown-menu-dark {
+  background: transparent !important;
 }
 
 .container-fluid .itemsTitle {
@@ -107,6 +86,7 @@ body {
 .blog .boxHover .blogContent {
   margin-top: -15px;
   padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .gradientBar {
@@ -127,7 +107,7 @@ body {
 #laptops .productBox {
   background-color: #222;
   margin: 1rem;
-  max-width: 88%;
+  min-width: 80%;
 }
 
 #laptops .productContent {
@@ -135,7 +115,7 @@ body {
 }
 
 #laptops .productImg img {
-  width: 75%;
+  width: 70%;
   padding-bottom: 2rem;
 }
 
@@ -148,7 +128,7 @@ body {
 #tarjetasMadre .productBox {
   background-color: #222;
   margin: 1rem;
-  max-width: 85%;
+  min-width: 75%;
 }
 
 #tarjetasMadre .productContent {
@@ -156,7 +136,7 @@ body {
 }
 
 #tarjetasMadre .productImg img {
-  width: 75%;
+  width: 70%;
   padding-bottom: 2rem;
 }
 
@@ -169,7 +149,7 @@ body {
 #tarjetasGraficas .productBox {
   background-color: #222;
   margin: 1rem;
-  max-width: 85%;
+  min-width: 75%;
 }
 
 #tarjetasGraficas .productContent {
@@ -177,7 +157,7 @@ body {
 }
 
 #tarjetasGraficas .productImg img {
-  width: 75%;
+  width: 70%;
   padding-bottom: 2rem;
 }
 
@@ -224,7 +204,7 @@ body {
   margin: 0 5px;
   padding: 0 5px;
   text-decoration: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .aorusFooter .footerIcons a:hover {
@@ -238,6 +218,7 @@ body {
 
 .aorusFooter .siteMap .col-md-5 {
   width: 100%;
+  height: auto;
   padding: 0 8rem;
   margin: 1rem 0 1rem 0;
 }
@@ -275,7 +256,7 @@ body {
   margin: 0 5px;
   padding: 0 5px;
   text-decoration: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .aboutFooter .footerIcons a:hover {
@@ -287,16 +268,17 @@ body {
   padding-bottom: 1rem;
 }
 
-.aboutFooter .siteMap .col-xxl-3 {
-  padding: 0 5rem;
+.aboutFooter .siteMap .col-md-5 {
+  width: 100%;
+  padding: 0 8rem;
   margin: 1rem 0 1rem 0;
 }
 
-.aboutFooter .siteMap .col-xxl-3 .mapTitle {
+.aboutFooter .siteMap .col-md-5 .mapTitle {
   padding: 0 1rem;
 }
 
-.aboutFooter .siteMap .col-xxl-3 a {
+.aboutFooter .siteMap .col-md-5 a {
   font-size: 13px;
   color: #c4c4c4;
   text-decoration: none;
@@ -304,7 +286,7 @@ body {
   transition: all .3s;
 }
 
-.aboutFooter .siteMap .col-xxl-3 a:hover {
+.aboutFooter .siteMap .col-md-5 a:hover {
   color: #FF6400;
 }
 /*# sourceMappingURL=estilos.css.map */

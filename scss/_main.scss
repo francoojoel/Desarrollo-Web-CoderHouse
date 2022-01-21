@@ -5,18 +5,17 @@ body {
     overflow-x: hidden;
 }
 
-.navbar {
-    .transparentBar {
-        background: transparent;
-    }
-    .dropdown-menu-dark {
-        @extend .transparentBar
-    }
-
-}
-
 .fontAldrich {
     font-family: 'Aldrich', sans-serif;
+}
+
+.transparentBar {
+    .navbar {
+        background: transparent !important;
+    }
+    .dropdown-menu-dark {
+        @extend .navbar;
+    }
 }
 
 .container-fluid {
@@ -81,6 +80,7 @@ body {
         .blogContent {
             margin-top: -15px;
             padding-bottom: 1rem;
+            padding-left: 1rem;
         }
     }
 }
@@ -93,8 +93,6 @@ body {
     background-color: $bg-gray;
 }
 
-
-
 #laptops {
     .productTitle {
         color: $aorus-orange;
@@ -104,14 +102,14 @@ body {
     .productBox {
         background-color: $aorus-gray;
         margin: 1rem;
-        max-width: 88%;
+        min-width: 80%;
     }
     .productContent {
         padding-top: 1rem;
     }
     .productImg {
         img {
-            width: 75%;
+            width: 70%;
             padding-bottom: 2rem;
         }
     }
@@ -152,7 +150,7 @@ body {
 }
 
 .aboutBar {
-    background-color: #131313;
+    background-color: $navbar-dark;
 }
 
 .aboutContainer {
