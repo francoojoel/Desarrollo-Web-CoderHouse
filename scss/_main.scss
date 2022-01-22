@@ -102,7 +102,7 @@ body {
     .productBox {
         background-color: $aorus-gray;
         margin: 1rem;
-        min-width: 80%;
+        min-width: 75%;
     }
     .productContent {
         padding-top: 1rem;
@@ -169,6 +169,43 @@ body {
     }
     .aboutTitle {
         @include about-title;
+    }
+}
+
+.news-section {
+    padding: 2rem 0 2rem 0;
+    .lastPost {
+        @include product-title;
+    }
+    .newBox {
+        background: transparent;    
+        border-bottom: 1px solid $aorus-orange;
+        a {
+            color: #ddd;
+            text-decoration: none;
+            .newImg {
+                padding-top: 5%;
+                img {
+                    width: 95%;
+                    max-width: 600px;
+                    height: auto;
+                }
+            }
+            .newLabel {
+                margin-top: 1rem;
+                margin-bottom: 10px;
+                font-size: 13px;
+                span {
+                    background-color: $aorus-orange
+                }
+            }
+            .newTitle {
+               color: $aorus-orange 
+            }
+            &:hover {
+                color: $white;
+            }
+        }
     }
 }
 

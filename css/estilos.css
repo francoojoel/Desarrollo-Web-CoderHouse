@@ -107,7 +107,7 @@ body {
 #laptops .productBox {
   background-color: #222;
   margin: 1rem;
-  min-width: 80%;
+  min-width: 75%;
 }
 
 #laptops .productContent {
@@ -185,6 +185,54 @@ body {
   color: #ff8c00;
   padding-top: 2rem;
   margin-top: 1rem;
+}
+
+.news-section {
+  padding: 2rem 0 2rem 0;
+}
+
+.news-section .lastPost {
+  color: #FF6400;
+  padding-top: 4rem;
+  margin-top: 4.2rem;
+}
+
+.news-section .newBox {
+  background: transparent;
+  border-bottom: 1px solid #FF6400;
+}
+
+.news-section .newBox a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.news-section .newBox a .newImg {
+  padding-top: 5%;
+}
+
+.news-section .newBox a .newImg img {
+  width: 95%;
+  max-width: 600px;
+  height: auto;
+}
+
+.news-section .newBox a .newLabel {
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.news-section .newBox a .newLabel span {
+  background-color: #FF6400;
+}
+
+.news-section .newBox a .newTitle {
+  color: #FF6400;
+}
+
+.news-section .newBox a:hover {
+  color: #FFFFFF;
 }
 
 .aorusFooter {
