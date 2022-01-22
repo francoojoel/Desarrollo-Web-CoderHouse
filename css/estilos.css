@@ -198,8 +198,9 @@ body {
 }
 
 .news-section .newBox {
-  background: transparent;
   border-bottom: 1px solid #FF6400;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .news-section .newBox a {
@@ -231,7 +232,9 @@ body {
   color: #FF6400;
 }
 
-.news-section .newBox a:hover {
+.news-section .newBox:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   color: #FFFFFF;
 }
 

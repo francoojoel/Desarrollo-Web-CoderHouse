@@ -177,9 +177,9 @@ body {
     .lastPost {
         @include product-title;
     }
-    .newBox {
-        background: transparent;    
+    .newBox {    
         border-bottom: 1px solid $aorus-orange;
+        transition: all .3s;
         a {
             color: #ddd;
             text-decoration: none;
@@ -200,11 +200,12 @@ body {
                 }
             }
             .newTitle {
-               color: $aorus-orange 
+               color: $aorus-orange;
             }
-            &:hover {
-                color: $white;
-            }
+        }
+        &:hover {
+            transform: scale(1.1);
+            color: $white;
         }
     }
 }
