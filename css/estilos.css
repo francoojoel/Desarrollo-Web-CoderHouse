@@ -23,21 +23,15 @@ body {
   border-radius: 50px;
 }
 
-.navbar {
-  height: 70px;
-}
-
-.navbar .nav-item .nav-link:hover {
+.nav-item .nav-link:hover {
   color: #FF6400 !important;
 }
 
-.navbar .nav-item .dropdown-menu .dropdown-item {
+.nav-item .dropdown-menu .dropdown-item {
   background: none;
 }
 
-.navbar .nav-item .dropdown-menu .dropdown-item:hover {
-  -webkit-transition: .2s;
-  transition: .2s;
+.nav-item .dropdown-menu .dropdown-item:hover {
   color: #FF6400 !important;
 }
 
@@ -119,6 +113,10 @@ body {
 .gradientBar {
   background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#3e3e3e));
   background: linear-gradient(180deg, #000, #3e3e3e);
+}
+
+.bgColor {
+  background-color: #333;
 }
 
 #laptops .productTitle {
@@ -287,7 +285,6 @@ body {
   height: 45px;
   background: #282828;
   color: #FFFFFF;
-  border-radius: 4px;
   border: 0;
 }
 
@@ -297,7 +294,6 @@ body {
   height: 175px;
   background: #282828;
   color: #FFFFFF;
-  border-radius: 4px;
   border: 0;
   resize: vertical;
 }
@@ -317,7 +313,6 @@ body {
   color: #FFFFFF;
   background: rgba(0, 0, 0, 0.6);
   border-bottom: 2px solid #FFFFFF;
-  border-radius: 4px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }

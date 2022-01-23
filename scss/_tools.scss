@@ -31,13 +31,11 @@
     height: 175px;
     background: $input-bg;
     color: $white;
-    border-radius: 4px;
     border: 0; 
 }
 
 @mixin navbar-hover {
    &:hover {
-       transition: .2s;
        color: $aorus-orange !important;
    } 
 } 

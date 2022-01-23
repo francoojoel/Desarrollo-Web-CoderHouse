@@ -18,24 +18,20 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #333;
+    background: $bg-gray;
     border-radius: 50px;
 }
 
-
-.navbar {
-    height: 70px;
-    .nav-item {
-        .nav-link {
-            &:hover {
-                color: $aorus-orange !important;
-            }
+.nav-item {
+    .nav-link {
+        &:hover {
+            color: $aorus-orange !important;
         }
-        .dropdown-menu {
-            .dropdown-item {
-                @include navbar-hover;
-                background: none;
-            }
+    }
+    .dropdown-menu {
+        .dropdown-item {
+            @include navbar-hover;
+            background: none;
         }
     }
 }
@@ -109,6 +105,10 @@ body {
 
 .gradientBar {
     background: linear-gradient(180deg,#000,#3e3e3e);
+}
+
+.bgColor {
+    background-color: $bg-gray;
 }
 
 #laptops {
@@ -254,7 +254,6 @@ body {
                     height: 45px;
                     background: $input-bg;
                     color: $white;
-                    border-radius: 4px;
                     border: 0;     
                 }
                 .inputArea {
@@ -273,7 +272,6 @@ body {
                         color: $white;
                         background: rgba(0,0,0,0.6);
                         border-bottom: 2px solid $white;
-                        border-radius: 4px;
                         transition: all .3s;
                         &:hover {
                             transform: scale(1.1);
