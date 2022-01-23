@@ -23,15 +23,15 @@ body {
   border-radius: 50px;
 }
 
-.nav-item .nav-link:hover {
+.navbar .nav-item .nav-link:hover {
   color: #FF6400 !important;
 }
 
-.nav-item .dropdown-menu .dropdown-item {
+.navbar .nav-item .dropdown-menu .dropdown-item {
   background: none;
 }
 
-.nav-item .dropdown-menu .dropdown-item:hover {
+.navbar .nav-item .dropdown-menu .dropdown-item:hover {
   color: #FF6400 !important;
 }
 
@@ -113,10 +113,6 @@ body {
 .gradientBar {
   background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#3e3e3e));
   background: linear-gradient(180deg, #000, #3e3e3e);
-}
-
-.bgColor {
-  background-color: #333;
 }
 
 #laptops .productTitle {
