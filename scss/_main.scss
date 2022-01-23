@@ -269,6 +269,20 @@ body {
     }
 }
 
+.page-not-available {
+    .col-12 {
+        .aorusChibi {
+            img {
+                width: 100%;
+                max-width: 700px;
+            }
+        }
+        .no-available-text {
+            color: $aorus-orange;
+        }
+    }
+}
+
 .aorusFooter {
     @include aorus-footer;
 }
