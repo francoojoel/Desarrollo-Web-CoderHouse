@@ -3,15 +3,24 @@
 body {
   font-family: 'Titillium Web', sans-serif;
   background-color: #000;
-  overflow-x: hidden;
 }
 
 .fontAldrich {
   font-family: 'Aldrich', sans-serif;
 }
 
-.transparentBar .navbar, .transparentBar .dropdown-menu-dark {
-  background: transparent !important;
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #131313;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 50px;
 }
 
 .container-fluid .itemsTitle {
@@ -242,7 +251,7 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 400px;
-  height: 650px;
+  height: 600px;
   background: rgba(0, 0, 0, 0.7);
 }
 
@@ -354,6 +363,7 @@ body {
 }
 
 .aboutFooter {
+  margin-top: 2rem;
   padding-top: 3rem;
   min-height: 450px;
   background-color: #121212;

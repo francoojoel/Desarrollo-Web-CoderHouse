@@ -2,20 +2,24 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color: #000;
-    overflow-x: hidden;
 }
 
 .fontAldrich {
     font-family: 'Aldrich', sans-serif;
 }
 
-.transparentBar {
-    .navbar {
-        background: transparent !important;
-    }
-    .dropdown-menu-dark {
-        @extend .navbar;
-    }
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: $navbar-dark;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $bg-gray;
+    border-radius: 50px;
 }
 
 .container-fluid {
@@ -213,14 +217,14 @@ body {
 
 .formBox {
     .contactBox {
-        .contactate {
-            padding: 1rem 0 1rem 0;
-        }
         margin: 0 auto;
         width: 100%;
         max-width: 400px;
-        height: 650px;
+        height: 600px;
         background: rgba(0,0,0,0.7);
+        .contactate {
+            padding: 1rem 0 1rem 0;
+        }
         .row {
             .col-xs-12 {
                 @extend .col-xs-6;
