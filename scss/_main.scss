@@ -22,6 +22,20 @@ body {
     border-radius: 50px;
 }
 
+.nav-item {
+    .nav-link {
+        &:hover {
+            color: $aorus-orange !important;
+        }
+    }
+    .dropdown-menu {
+        .dropdown-item {
+            @include navbar-hover;
+            background: none;
+        }
+    }
+}
+
 .container-fluid {
     .itemsTitle {
         margin: 9rem;

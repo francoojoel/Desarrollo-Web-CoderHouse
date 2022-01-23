@@ -23,6 +23,18 @@ body {
   border-radius: 50px;
 }
 
+.nav-item .nav-link:hover {
+  color: #FF6400 !important;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  background: none;
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover {
+  color: #FF6400 !important;
+}
+
 .container-fluid .itemsTitle {
   margin: 9rem;
   margin-bottom: 1.8rem;
