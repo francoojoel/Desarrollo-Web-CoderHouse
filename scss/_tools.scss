@@ -25,6 +25,15 @@
     margin-top: 1rem;
 }
 
+@mixin textarea {
+    width: 100%;
+    max-width: 338px;
+    height: 175px;
+    background: $input-bg;
+    color: $white;
+    border: 0; 
+}
+
 @mixin aorus-footer {
     padding-top: 3rem;
     min-height: 450px;

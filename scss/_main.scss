@@ -179,10 +179,11 @@ body {
     }
     .newBox {    
         border-bottom: 1px solid $aorus-orange;
-        transition: all .3s;
         a {
+
             color: #ddd;
             text-decoration: none;
+            transition: all .3s;
             .newImg {
                 padding-top: 5%;
                 img {
@@ -200,12 +201,66 @@ body {
                 }
             }
             .newTitle {
-               color: $aorus-orange;
+              color: $aorus-orange;
+              transition: .3s;
+              &:hover {
+                  color: $white;;
+              }
             }
         }
-        &:hover {
-            transform: scale(1.1);
-            color: $white;
+    }
+}
+
+.formBox {
+    .contactBox {
+        .contactate {
+            padding: 1rem 0 1rem 0;
+        }
+        margin: 0 auto;
+        width: 100%;
+        max-width: 400px;
+        height: 650px;
+        background: rgba(0,0,0,0.7);
+        .row {
+            .col-xs-12 {
+                @extend .col-xs-6;
+                .formTitle {
+                    padding-left: 1%;
+                    span {
+                        color: #999;
+                    }
+                }
+                .formInput {
+                    width: 100%;
+                    max-width: 338px;
+                    height: 45px;
+                    background: $input-bg;
+                    color: $white;
+                    border: 0;     
+                }
+                .inputArea {
+                    @include textarea;
+                    resize: vertical;
+                }   
+            }
+            .col-xs-6 {
+                padding: 0 2rem 0 2rem;
+                .submitBtn {
+                    padding: 3rem 2rem 0 2rem;
+                    button {
+                        width: 100%;
+                        max-width: 245px;
+                        height: 45px;
+                        color: $white;
+                        background: rgba(0,0,0,0.6);
+                        border-bottom: 2px solid $white;
+                        transition: all .3s;
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }      
+            }
         }
     }
 }

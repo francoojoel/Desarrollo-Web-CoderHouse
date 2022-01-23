@@ -199,13 +199,13 @@ body {
 
 .news-section .newBox {
   border-bottom: 1px solid #FF6400;
-  -webkit-transition: all .3s;
-  transition: all .3s;
 }
 
 .news-section .newBox a {
   color: #ddd;
   text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .news-section .newBox a .newImg {
@@ -230,12 +230,75 @@ body {
 
 .news-section .newBox a .newTitle {
   color: #FF6400;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
-.news-section .newBox:hover {
+.news-section .newBox a .newTitle:hover {
+  color: #FFFFFF;
+}
+
+.formBox .contactBox {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  height: 650px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.formBox .contactBox .contactate {
+  padding: 1rem 0 1rem 0;
+}
+
+.formBox .contactBox .row .col-xs-12 .formTitle {
+  padding-left: 1%;
+}
+
+.formBox .contactBox .row .col-xs-12 .formTitle span {
+  color: #999;
+}
+
+.formBox .contactBox .row .col-xs-12 .formInput {
+  width: 100%;
+  max-width: 338px;
+  height: 45px;
+  background: #282828;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.formBox .contactBox .row .col-xs-12 .inputArea {
+  width: 100%;
+  max-width: 338px;
+  height: 175px;
+  background: #282828;
+  color: #FFFFFF;
+  border: 0;
+  resize: vertical;
+}
+
+.formBox .contactBox .row .col-xs-6, .formBox .contactBox .row .col-xs-12 {
+  padding: 0 2rem 0 2rem;
+}
+
+.formBox .contactBox .row .col-xs-6 .submitBtn, .formBox .contactBox .row .col-xs-12 .submitBtn {
+  padding: 3rem 2rem 0 2rem;
+}
+
+.formBox .contactBox .row .col-xs-6 .submitBtn button, .formBox .contactBox .row .col-xs-12 .submitBtn button {
+  width: 100%;
+  max-width: 245px;
+  height: 45px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid #FFFFFF;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.formBox .contactBox .row .col-xs-6 .submitBtn button:hover, .formBox .contactBox .row .col-xs-12 .submitBtn button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  color: #FFFFFF;
 }
 
 .aorusFooter {
