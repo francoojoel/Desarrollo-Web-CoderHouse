@@ -127,11 +127,11 @@ body {
   min-width: 75%;
 }
 
-#laptops .productContent {
+#laptops .productBox .productContent {
   padding-top: 1rem;
 }
 
-#laptops .productImg img {
+#laptops .productBox .productImg img {
   width: 70%;
   padding-bottom: 2rem;
 }
@@ -148,11 +148,11 @@ body {
   min-width: 75%;
 }
 
-#tarjetasMadre .productContent {
+#tarjetasMadre .productBox .productContent {
   padding-top: 1.2rem;
 }
 
-#tarjetasMadre .productImg img {
+#tarjetasMadre .productBox .productImg img {
   width: 70%;
   padding-bottom: 2rem;
 }
@@ -169,11 +169,11 @@ body {
   min-width: 75%;
 }
 
-#tarjetasGraficas .productContent {
+#tarjetasGraficas .productBox .productContent {
   padding-top: 1.2rem;
 }
 
-#tarjetasGraficas .productImg img {
+#tarjetasGraficas .productBox .productImg img {
   width: 70%;
   padding-bottom: 2rem;
 }

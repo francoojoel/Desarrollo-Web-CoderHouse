@@ -119,14 +119,14 @@ body {
         background-color: $aorus-gray;
         margin: 1rem;
         min-width: 75%;
-    }
-    .productContent {
-        padding-top: 1rem;
-    }
-    .productImg {
-        img {
-            width: 70%;
-            padding-bottom: 2rem;
+        .productContent {
+            padding-top: 1rem;
+        }
+        .productImg {
+            img {
+                width: 70%;
+                padding-bottom: 2rem;    
+            }
         }
     }
 }
@@ -137,13 +137,13 @@ body {
     }
     .productBox {
         @include product-box;
-    }
-    .productContent {
-        @include product-content;
-    }
-    .productImg {
-        img {
-            @include product-img;
+        .productContent {
+            @include product-content;    
+        }
+        .productImg {
+            img {
+                @include product-img;    
+            }
         }
     }
 }
@@ -154,13 +154,13 @@ body {
     }
     .productBox {
         @include product-box;
-    }
-    .productContent {
-        @include product-content;
-    }
-    .productImg {
-        img {
-            @include product-img;
+        .productContent {
+            @include product-content;    
+        }
+        .productImg {
+            img {
+            @include product-img;        
+            }
         }
     }
 }
