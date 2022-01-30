@@ -115,6 +115,10 @@ body {
   background: linear-gradient(180deg, #000, #3e3e3e);
 }
 
+.product-bg {
+  background-color: #333;
+}
+
 #laptops .productTitle {
   color: #FF6400;
   padding-top: 4rem;
@@ -204,6 +208,10 @@ body {
   margin-top: 1rem;
 }
 
+.blog-bg, .about-bg, .bgChange {
+  background-color: #232323;
+}
+
 .news-section {
   padding: 2rem 0 2rem 0;
 }
@@ -253,6 +261,13 @@ body {
 
 .news-section .newBox a .newTitle:hover {
   color: #FFFFFF;
+}
+
+.support-bg {
+  background-image: url(../assets/formBg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .formBox .contactBox {
@@ -308,7 +323,7 @@ body {
   height: 45px;
   color: #FFFFFF;
   background: rgba(0, 0, 0, 0.6);
-  border-bottom: 2px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   -webkit-transition: all .3s;
   transition: all .3s;
 }

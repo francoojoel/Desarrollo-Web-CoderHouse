@@ -18,7 +18,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #333;
+    background: $product-bg;
     border-radius: 50px;
 }
 
@@ -109,6 +109,10 @@ body {
     background: linear-gradient(180deg,#000,#3e3e3e);
 }
 
+.product-bg {
+    background-color: $product-bg;
+}
+
 #laptops {
     .productTitle {
         color: $aorus-orange;
@@ -169,6 +173,10 @@ body {
     background-color: $navbar-dark;
 }
 
+.about-bg {
+    @extend .blog-bg;
+}
+
 .aboutContainer {
     width: 85%;
     .aboutImg {
@@ -186,6 +194,10 @@ body {
     .aboutTitle {
         @include about-title;
     }
+}
+
+.blog-bg {
+    background-color: $page-bg;
 }
 
 .news-section {
@@ -225,6 +237,13 @@ body {
             }
         }
     }
+}
+
+.support-bg {
+    background-image: url(../assets/formBg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .formBox {
@@ -269,7 +288,7 @@ body {
                         height: 45px;
                         color: $white;
                         background: rgba(0,0,0,0.6);
-                        border-bottom: 2px solid $white;
+                        border: 2px solid $white;
                         transition: all .3s;
                         &:hover {
                             transform: scale(1.1);
@@ -279,6 +298,10 @@ body {
             }
         }
     }
+}
+
+.bgChange {
+    @extend .blog-bg;
 }
 
 .page-not-available {
