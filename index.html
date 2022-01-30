@@ -1,271 +1,286 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="tarjetas madre, gaming, tarjetas graficas, laptops, blog">
-    <meta name="description" content="AORUS es una empresa líder de tarjetas madre, tarjetas graficas y laptops para gamers y creadores exigentes">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="assets/favicon.ico">
-    <title>AORUS. Team Up. Fight On.</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="tarjetas madre, gaming, tarjetas graficas, laptops, blog">
+   <meta name="description"content="AORUS es una empresa líder de tarjetas madre, tarjetas graficas y laptops para gamers y creadores exigentes">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+   <link rel="stylesheet" href="css/estilos.css">
+   <link rel="shortcut icon" href="assets/favicon.ico">
+   <title>AORUS. Team Up. Fight On.</title>
 </head>
+
 <body>
 
-<!--NAVBAR-->    
-<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-          <img src="assets/logo.png" loading="lazy" alt="Logo del sitio" width="180">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+   <!--NAVBAR-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container-fluid">
+         <a class="navbar-brand" href="index.html">
+            <img src="assets/logo.png" loading="lazy" alt="Logo del sitio" width="180">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link text-white fontAldrich" href="index.html">Inicio</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fontAldrich" href="#" id="navbarDropdownMenuLink"
+                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Productos
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark bg-transparent" aria-labelledby="navbarDropdownMenuLink">
+                     <li>
+                        <a class="dropdown-item text-white fontAldrich" href="pages/productos.html#laptops">Laptops</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item text-white fontAldrich" href="pages/productos.html#tarjetasMadre">Tarjetas Madre</a>                       
+                     </li>
+                     <li>
+                        <a class="dropdown-item text-white fontAldrich" href="pages/productos.html#tarjetasGraficas">Tarjetas Graficas</a>   
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white fontAldrich" href="pages/blog.html">Blog</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white fontAldrich" href="pages/soporte.html">Soporte</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white fontAldrich" href="pages/nosotros.html">Nosotros</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <!--CAROUSEL-->
+   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>  
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>   
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>    
+      </div>
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="assets/motherSlide.jpg" class="d-block w-100" alt="Carousel AORUS Z690">
+            <div class="carousel-caption d-none d-sm-block">
+               <h5 class="fontAldrich fw-bold text-end fs-2">EL NUEVO REY DEL GAMING</h5>
+               <p class="text-end fs-4">Tarjetas Madre AORUS Z690</p>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <img src="assets/laptopSlide.jpg" class="d-block w-100" alt="Carousel Laptops AORUS y AERO CREATOR">
+            <div class="carousel-caption d-none d-sm-block">
+               <h5 class="fontAldrich fw-bold text-end fs-2">LAPTOPS AORUS Y AERO CREATOR</h5> 
+               <p class="text-end fs-4">Rendimiento por encima de todo</p>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <img src="assets/gpuSlide.jpg" class="d-block w-100" alt="Carousel Tarjetas Graficas RTX">
+            <div class="carousel-caption d-none d-sm-block">
+               <h5 class="fontAldrich fw-bold text-end fs-2">TARJETAS GRAFICAS RTX SERIES</h5>
+               <p class="text-end fs-4">Lo mas potente para tus juegos preferidos</p>
+            </div>
+         </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-white fontAldrich" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white fontAldrich" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Productos
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark bg-transparent" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item text-white fontAldrich" href="pages/productos.html#laptops">Laptops</a></li>
-                <li><a class="dropdown-item text-white fontAldrich" href="pages/productos.html#tarjetasMadre">Tarjetas Madre</a></li>
-                <li><a class="dropdown-item text-white fontAldrich" href="pages/productos.html#tarjetasGraficas">Tarjetas Graficas</a></li>
-              </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fontAldrich" href="pages/blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fontAldrich" href="pages/soporte.html">Soporte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fontAldrich" href="pages/nosotros.html">Nosotros</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!--CAROUSEL-->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/motherSlide.jpg" class="d-block w-100" alt="Carousel AORUS Z690">
-        <div class="carousel-caption d-none d-sm-block">
-          <h5 class="fontAldrich fw-bold text-end fs-2">EL NUEVO REY DEL GAMING</h5>
-          <p class="text-end fs-4">Tarjetas Madre AORUS Z690</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/laptopSlide.jpg" class="d-block w-100" alt="Carousel Laptops AORUS">
-        <div class="carousel-caption d-none d-sm-block">
-          <h5 class="fontAldrich fw-bold text-end fs-2">LAPTOPS AORUS Y AERO CREATOR</h5>
-          <p class="text-end fs-4">Rendimiento por encima de todo</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/gpuSlide.jpg" class="d-block w-100" alt="Carousel Tarjetas Graficas RTX">
-        <div class="carousel-caption d-none d-sm-block">
-          <h5 class="fontAldrich fw-bold text-end fs-2">TARJETAS GRAFICAS RTX SERIES</h5>
-          <p class="text-end fs-4">Lo mas potente para tus juegos preferidos</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-<!--LINEA DE PRODUCTOS-->
-<section class="container-fluid">
-  <div class="row p-0">
-    <div class="col-sm-12 text-center">
-        <div class="itemsTitle">
-          <h1 class="fontAldrich fs-2">EQUIPO DE JUEGOS</h1>
-        </div>
-        <div class="contentSummary lh-sm fs-5">
-           <p>AORUS es una empresa líder en tarjetas madre, tarjetas gráficas, laptops, hardware de juegos y sistemas de alto rendimiento. ¡Nos apasiona unirnos a los jugadores para desafiar los límites sin miedo y luchar mientras nos elevamos a la gloria máxima!</p>    
-        </div>
-    </div>
-    <div class="col-sm-12 d-sm-inline-flex flex-wrap align-items-center justify-content-center">
-      <div class="productHover">
-          <a href="pages/productos.html#laptops">
-            <div class="itemBox">
-              <img src="assets/laptopHover.webp" loading="lazy" alt="Link Laptops">
-            <div class="boxTitle">
-                <h3 class="fs-6 text-center">Laptops Gaming</h3>
-            </div>
-          </div>
-        </a>
-      </div>
-        <div class="productHover">
-          <a href="pages/productos.html#tarjetasMadre">
-          <div class="itemBox">
-              <img src="assets/motherHover.webp" loading="lazy" alt="Link Tarjetas Madre">
-            <div class="boxTitle">
-              <h3 class="fs-6 text-center">Tarjetas Madre Gaming</h3>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="productHover">
-          <a href="pages/productos.html#tarjetasGraficas">
-          <div class="itemBox">
-              <img src="assets/gpuHover.jpg" loading="lazy" alt="Link Tarjetas Graficas">
-            <div class="boxTitle">
-              <h3 class="fs-6 text-center">Tarjetas Graficas Gaming</h3>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!--BLOG-->
-<section class="blog container-fluid">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <div class="itemsTitle fw-bold">
-        <h1 class="fontAldrich fs-2">EXPLORA AORUS</h1>
-      </div>
-        <div class="contentSummary lh-sm fs-5">
-          <p>Descubre la inspiración para construir una PC, consejos para hacerlo uno mismo, trucos de juego, eventos mundiales de AORUS y mucho más. </p>
-        </div>
-    </div>
-      <div class="col-sm-12 d-sm-inline-flex align-items-center justify-content-center">
-        <div class="boxHover">
-          <a href="pages/blog.html#indexNew1" class="text-decoration-none text-white lh-sm">
-            <div class="imgBox">
-              <img src="assets/blog1.jpg" loading="lazy" alt="Consejos para comprar tu nueva placa base">
-            </div>
-            <div class="blogContent fs-5 text-left">
-              <p>Consejos para comprar tu nueva placa base</p>
-            </div>
-          </a>
-        </div>
-        <div class="boxHover">
-          <a href="pages/blog.html#indexNew2" class="text-decoration-none text-white lh-sm">
-            <div class="imgBox">
-              <img src="assets/indexBlog2.jpg" loading="lazy" alt="Unboxing AERO 16">
-            </div>
-            <div class="blogContent fs-5 text-left">
-              <p>Unboxing AERO 16:Experimenta la brillante estrella de primera mano</p>
-            </div>
-          </a>
-        </div>
-        <div class="boxHover">
-          <a href="pages/blog.html#indexNew3" class="text-decoration-none text-white lh-sm">
-            <div class="imgBox">
-              <img src="assets/indexBlog3.jpg" loading="lazy" alt="AORUS X570 XTREME">
-            </div>
-            <div class="blogContent fs-5 text-left">
-              <p>AORUS X570 XTREME El primer diseño del mundo con 16 fases de poder directas</p>
-            </div>
-          </a>
-        </div>
-        <div class="boxHover">
-          <a href="pages/blog.html#indexNew4" class="text-decoration-none text-white lh-sm">
-            <div class="imgBox">
-              <img src="assets/indexBlog4.jpg" loading="lazy" alt="DDR5 y PCIe 5.0">
-            </div>
-            <div class="blogContent fs-5 text-left">
-              <p>DDR5 y PCIe 5.0 ¿que son y que significan para los gamers?</p>
-            </div>
-          </a>
-        </div>
-    </div>
-  </div>
-</section>
-
-
- <!--FOOTER-->
- <section class="aorusFooter container-fluid">
-   <div class="d-flex justify-content-center align-items-center">
-      <img src="assets/footerLogo.svg" loading="lazy" alt="Footer Logo" width="75">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"data-bs-slide="next">  
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+      </button>
    </div>
-   <div class="slogan mt-4">
-      <div class="fontAldrich text-center text-white fs-5">TEAM UP. FIGHT ON.</div>
-   </div>
-   <div class="footerIcons text-center">
-      <a href="https://www.instagram.com/aoruslatam/">
-         <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com/AorusLATAM">
-         <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://twitter.com/AORUS_LATAM">
-         <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://www.youtube.com/channel/UCJbbjpC9vgTtTeM1bEFhQMQ?view_as=subscriber">
-         <i class="fab fa-youtube"></i>
-      </a>
-   </div>
-   <!--SITEMAP-->
-   <div class="siteMap">
-     <div class="row d-md-inline-flex text-center">
-      <div class="col-md-5">
-          <a href="index.html">
-            <div class="mapTitle fontAldrich text-white fs-6">INICIO</div>
-          </a>  
-      </div>
-      <div class="col-md-5">
-          <div class="mapTitle fontAldrich text-white fs-6">PRODUCTOS</div>
-        <div class="mapContent">
-          <div>
-            <a href="pages/productos.html#laptops">Laptops</a>
-          </div>
-          <div>
-            <a href="pages/productos.html#tarjetasMadre">Tarjetas Madre</a>
-          </div>
-          <div>
-            <a href="pages/productos.html#tarjetasGraficas">Tarjetas Gráficas</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <a href="pages/blog.html">
-          <div class="mapTitle fontAldrich text-white fs-6">BLOG</div>
-        </a>
-      </div>
-      <div class="col-md-5">
-        <div class="mapTitle fontAldrich text-white fs-6">SOPORTE</div>
-        <div class="mapContent">
-          <div>
-            <a href="#">Contactanos</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div class="mapTitle fontAldrich text-white fs-6">SOBRE NOSOTROS</div>
-        <div class="mapContent">
-          <div>
-            <a href="pages/nosotros.html">Sobre AORUS</a>
-          </div>
-        </div>
-      </div>
-    </div>
-   </div>
-</section>
 
-  <!--SCRIPTS BOOTSTRAP-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!--LINEA DE PRODUCTOS-->
+   <section class="container-fluid">
+      <div class="row p-0">
+         <div class="col-sm-12 text-center">
+            <div class="itemsTitle">
+               <h1 class="fontAldrich fs-2">EQUIPO DE JUEGOS</h1>
+            </div>
+            <div class="contentSummary lh-sm fs-5">
+               <p>AORUS es una empresa líder en tarjetas madre, tarjetas gráficas, laptops, hardware de juegos y
+                  sistemas de alto rendimiento. ¡Nos apasiona unirnos a los jugadores para desafiar los límites sin
+                  miedo y luchar mientras nos elevamos a la gloria máxima!</p>
+            </div>
+         </div>
+         <div class="col-sm-12 d-sm-inline-flex flex-wrap align-items-center justify-content-center">
+            <div class="productHover">
+               <a href="pages/productos.html#laptops">
+                  <div class="itemBox">
+                     <img src="assets/laptopHover.webp" loading="lazy" alt="Link Laptops">
+                     <div class="boxTitle">
+                        <h3 class="fs-6 text-center">Laptops Gaming</h3>
+                     </div>
+                  </div>
+               </a>
+            </div>
+            <div class="productHover">
+               <a href="pages/productos.html#tarjetasMadre">
+                  <div class="itemBox">
+                     <img src="assets/motherHover.webp" loading="lazy" alt="Link Tarjetas Madre">
+                     <div class="boxTitle">
+                        <h3 class="fs-6 text-center">Tarjetas Madre Gaming</h3>
+                     </div>
+                  </div>
+               </a>
+            </div>
+            <div class="productHover">
+               <a href="pages/productos.html#tarjetasGraficas">
+                  <div class="itemBox">
+                     <img src="assets/gpuHover.jpg" loading="lazy" alt="Link Tarjetas Graficas">
+                     <div class="boxTitle">
+                        <h3 class="fs-6 text-center">Tarjetas Graficas Gaming</h3>
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+   </section>
 
-  <!--SCRIPTS FONT AWESOME-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!--BLOG-->
+   <section class="blog container-fluid">
+      <div class="row">
+         <div class="col-sm-12 text-center">
+            <div class="itemsTitle fw-bold">
+               <h1 class="fontAldrich fs-2">EXPLORA AORUS</h1>
+            </div>
+            <div class="contentSummary lh-sm fs-5">
+               <p>Descubre la inspiración para construir una PC, consejos para hacerlo uno mismo, trucos de juego,
+                  eventos mundiales de AORUS y mucho más.</p> 
+            </div>
+         </div>
+         <div class="col-sm-12 d-sm-inline-flex align-items-center justify-content-center">
+            <div class="boxHover">
+               <a href="pages/blog.html#indexNew1" class="text-decoration-none text-white lh-sm">
+                  <div class="imgBox">
+                     <img src="assets/indexBlog1.jpg" loading="lazy" alt="Consejos para comprar tu nueva placa base">
+                  </div>
+                  <div class="blogContent fs-5 text-left">
+                     <p>Consejos para comprar tu nueva placa base</p>
+                  </div>
+               </a>
+            </div>
+            <div class="boxHover">
+               <a href="pages/blog.html#indexNew2" class="text-decoration-none text-white lh-sm">
+                  <div class="imgBox">
+                     <img src="assets/indexBlog2.jpg" loading="lazy" alt="Unboxing AERO 16">
+                  </div>
+                  <div class="blogContent fs-5 text-left">
+                     <p>Unboxing AERO 16:Experimenta la brillante estrella de primera mano</p>
+                  </div>
+               </a>
+            </div>
+            <div class="boxHover">
+               <a href="pages/blog.html#indexNew3" class="text-decoration-none text-white lh-sm">
+                  <div class="imgBox">
+                     <img src="assets/indexBlog3.jpg" loading="lazy" alt="AORUS X570 XTREME">
+                  </div>
+                  <div class="blogContent fs-5 text-left">
+                     <p>AORUS X570 XTREME El primer diseño del mundo con 16 fases de poder directas</p>
+                  </div>
+               </a>
+            </div>
+            <div class="boxHover">
+               <a href="pages/blog.html#indexNew4" class="text-decoration-none text-white lh-sm">
+                  <div class="imgBox">
+                     <img src="assets/indexBlog4.jpg" loading="lazy" alt="DDR5 y PCIe 5.0">
+                  </div>
+                  <div class="blogContent fs-5 text-left">
+                     <p>DDR5 y PCIe 5.0 ¿que son y que significan para los gamers?</p>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!--FOOTER-->
+   <section class="aorusFooter container-fluid">
+      <div class="d-flex justify-content-center align-items-center">
+         <img src="assets/footerLogo.svg" loading="lazy" alt="Footer Logo" width="75">
+      </div>
+      <div class="slogan mt-4">
+         <div class="fontAldrich text-center text-white fs-5">TEAM UP. FIGHT ON.</div>
+      </div>
+      <div class="footerIcons text-center">
+         <a href="https://www.instagram.com/aoruslatam/">
+            <i class="fab fa-instagram"></i>
+         </a>
+         <a href="https://www.facebook.com/AorusLATAM">
+            <i class="fab fa-facebook-f"></i>
+         </a>
+         <a href="https://twitter.com/AORUS_LATAM">
+            <i class="fab fa-twitter"></i>
+         </a>
+         <a href="https://www.youtube.com/channel/UCJbbjpC9vgTtTeM1bEFhQMQ?view_as=subscriber">
+            <i class="fab fa-youtube"></i>
+         </a>
+      </div>
+      <!--SITEMAP-->
+      <div class="siteMap">
+         <div class="row d-md-inline-flex text-center">
+            <div class="col-md-5">
+               <a href="index.html">
+                  <div class="mapTitle fontAldrich text-white fs-6">INICIO</div>
+               </a>
+            </div>
+            <div class="col-md-5">
+               <div class="mapTitle fontAldrich text-white fs-6">PRODUCTOS</div>
+               <div class="mapContent">
+                  <div>
+                     <a href="pages/productos.html#laptops">Laptops</a>
+                  </div>
+                  <div>
+                     <a href="pages/productos.html#tarjetasMadre">Tarjetas Madre</a>
+                  </div>
+                  <div>
+                     <a href="pages/productos.html#tarjetasGraficas">Tarjetas Gráficas</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-5">
+               <a href="pages/blog.html">
+                  <div class="mapTitle fontAldrich text-white fs-6">BLOG</div>
+               </a>
+            </div>
+            <div class="col-md-5">
+               <div class="mapTitle fontAldrich text-white fs-6">SOPORTE</div>
+               <div class="mapContent">
+                  <div>
+                     <a href="pages/soporte.html">Contactanos</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-5">
+               <div class="mapTitle fontAldrich text-white fs-6">SOBRE NOSOTROS</div>
+               <div class="mapContent">
+                  <div>
+                     <a href="pages/nosotros.html">Sobre AORUS</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+<!--SCRIPTS BOOTSTRAP-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!--SCRIPTS FONT AWESOME-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>        
 </body>
+
 </html>
